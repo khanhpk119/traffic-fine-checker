@@ -11,12 +11,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import cv2
 import numpy as np
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/[username]/traffic-fine-checker.git
-git push -u origin main
+
 
 # Cấu hình Tesseract OCR (thay đổi đường dẫn phù hợp với máy bạn)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
